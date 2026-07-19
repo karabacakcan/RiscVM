@@ -10,10 +10,10 @@ input/output and a simple bank-based heap allocator (`malloc`/`free`).
 ## Layout
 
 ```
-Assignment1.sln                 Visual Studio solution
-Assignment1/
-  Assignment1.vcxproj           Visual Studio project
-  Assignment1.vcxproj.filters
+RiscVM.sln                      Visual Studio solution
+RiscVM/
+  RiscVM.vcxproj                Visual Studio project
+  RiscVM.vcxproj.filters
   riscv_emulator.c              Emulator source
   examples/                     Sample programs (.c sources and .mi images)
 ```
@@ -46,21 +46,21 @@ Assignment1/
 
 ### Visual Studio
 
-Open `Assignment1.sln` and build the `Assignment1` project (Debug|x64).
+Open `RiscVM.sln` and build the `RiscVM` project (Debug|x64).
 
 ### Command line (GCC/Clang)
 
 ```sh
-cd Assignment1
+cd RiscVM
 gcc -D_CRT_SECURE_NO_WARNINGS -o riscv_emulator riscv_emulator.c
 ```
 
 ## Running
 
 The emulator currently loads `examples/hello_world/hello_world.mi` by default.
-Run it from the `Assignment1` directory so the example path resolves:
+Run it from the `RiscVM` directory so the example path resolves:
 
 ```sh
-cd Assignment1
+cd RiscVM
 ./riscv_emulator
 ```
