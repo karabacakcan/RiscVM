@@ -1,0 +1,25 @@
+# Visual Studio build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.exe
+*.obj
+*.obj.enc
+*.ilk
+*.pdb
+*.idb
+*.log
+*.tlog
+*.recipe
+*.FileListAbsolute.txt
+
+# Visual Studio user / IDE files
+.vs/
+*.suo
+*.user
+
+# Program output dumps
+output.txt
